@@ -1,0 +1,47 @@
+﻿/*
+ * Custom styles for homepage.
+ */
+html {
+	/* Required for footer. */
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 50px;
+	/* Margin bottom by footer height. Default is 20px.
+	padding-bottom: 20px;*/
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+/*
+ * Jumbotron masthead stuff.
+ */
+.jumbotron-banner {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(/Content/Images/jumbotron-header.jpg);
+	min-height: 100%;
+}
+
+/* Black text wouldn't work well with the image above. I'd change it to white. */
+.jumbotron .container {
+	color: #fff;
+}
+
+/*
+ * Bootstrap sticky footer.
+ */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+.container .text-muted {
+	margin: 20px 0;
+}
