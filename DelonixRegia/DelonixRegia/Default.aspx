@@ -1,22 +1,72 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DelonixRegia.Default" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Home
+	Home
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    	<div class="jumbotron masthead jumbotron-banner">
+	<div class="jumbotron masthead jumbotron-banner">
 		<div class="container">
 			<h1>Delonix Regia</h1>
 			<p>Luxurious hotel beside the Singapore River.</p>
-        </div>
+		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
+	<div class="container-fluid container-booking">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="form-group">
+						<label class="control-label">Check In</label>
+						<div class="input-group date" id="datepicker1">
+							<input type="text" class="form-control" id="tbxCheckInDate" data-date-format="YYYY-MM-DD" />
+							<span class="input-group-addon"><span class="fa fa-calendar" id="hack1"></span></span>
+						</div>
+					</div>
+				</div>
 
+				<div class="col-md-3">
+					<div class="form-group">
+						<label class="control-label">Check Out</label>
+						<div class="input-group date" id="datepicker2">
+							<input type="text" class="form-control" id="tbxCheckOutDate" data-date-format="YYYY-MM-DD" />
+							<span class="input-group-addon"><span class="fa fa-calendar" id="hack2"></span></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-1">
+					<div class="form-group">
+						<label class="control-label">Adults</label>
+						<div class="clearfix"></div>
+						<select class="form-control" id="ddlAdults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+					</div>
+				</div>
+
+				<div class="col-md-1">
+					<div class="form-group">
+						<label class="control-label">Children</label>
+						<div class="clearfix"></div>
+						<select class="form-control" id="ddlChildren">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<button class="btn btn-success">Search</button>
+				</div>
 			</div>
 		</div>
+
+	</div>
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Job Opportunities</h2>
