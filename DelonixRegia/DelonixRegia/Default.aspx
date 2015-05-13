@@ -10,7 +10,7 @@
 	<div class="jumbotron masthead jumbotron-banner">
 		<div class="container">
 			<h1>Delonix Regia</h1>
-			<p>Luxurious hotel beside the Singapore River.</p>
+			<p>Luxurious hotel overlooking the Singapore River.</p>
 		</div>
 	</div>
 	<div class="container-fluid container-booking">
@@ -20,7 +20,7 @@
 					<div class="form-group">
 						<label class="control-label">Check In</label>
 						<div class="input-group date" id="datepicker1">
-							<input type="text" class="form-control" id="tbxCheckInDate" data-date-format="YYYY-MM-DD" />
+							<input type="text" class="form-control" id="tbxCheckInDate" data-date-format="DD/MM/YYYY" />
 							<span class="input-group-addon"><span class="fa fa-calendar" id="hack1"></span></span>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 					<div class="form-group">
 						<label class="control-label">Check Out</label>
 						<div class="input-group date" id="datepicker2">
-							<input type="text" class="form-control" id="tbxCheckOutDate" data-date-format="YYYY-MM-DD" />
+							<input type="text" class="form-control" id="tbxCheckOutDate" data-date-format="DD/MM/YYYY" />
 							<span class="input-group-addon"><span class="fa fa-calendar" id="hack2"></span></span>
 						</div>
 					</div>

@@ -33,8 +33,11 @@
 				<div class="form-horizontal">
 
 					<div class="form-group">
-						<div class="col-md-12">
-							<input type="text" name="full_name" id="tbxFullName" class="form-control input-lg" placeholder="Full Name" runat="server" tabindex="1" autofocus>
+						<div class="col-md-6">
+							<input type="text" name="first_name" id="tbxFirstName" class="form-control input-lg" placeholder="Full Name" runat="server" tabindex="1" autofocus>
+						</div>
+						<div class="col-md-6">
+							<input type="text" name="last_name" id="tbxLastName" class="form-control input-lg" placeholder="Full Name" runat="server" tabindex="2" autofocus>
 						</div>
 					</div>
 

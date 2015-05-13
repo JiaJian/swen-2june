@@ -31,13 +31,22 @@ namespace DelonixRegia {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblMessage;
         
         /// <summary>
-        /// tbxFullName control.
+        /// tbxFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxFullName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxFirstName;
+        
+        /// <summary>
+        /// tbxLastName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxLastName;
         
         /// <summary>
         /// tbxEmail control.
