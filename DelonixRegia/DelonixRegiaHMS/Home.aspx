@@ -6,111 +6,110 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Styles" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-	
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="page-header">Home</h1>
-			</div>
-			<!-- /.col-lg-12 -->
+
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">Home</h1>
 		</div>
-		<!-- /.row -->
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-3">
-								<i class="fa fa-users fa-5x"></i>
-							</div>
-							<div class="col-xs-9 text-right">
-								<div class="huge">80</div>
-								<div>Guests Today</div>
-							</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-3 col-md-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-3">
+							<i class="fa fa-users fa-5x"></i>
+						</div>
+						<div class="col-xs-9 text-right">
+							<div class="huge">80</div>
+							<div>Guests Today</div>
 						</div>
 					</div>
-					<a href="#">
-						<div class="panel-footer">
-							<span class="pull-left">View Details</span>
-							<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-							<div class="clearfix"></div>
-						</div>
-					</a>
 				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="panel panel-green">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-3">
-								<i class="fa fa-check fa-5x"></i>
-							</div>
-							<div class="col-xs-9 text-right">
-								<div class="huge">18</div>
-								<div>Upcoming Reservations</div>
-							</div>
-						</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
 					</div>
-					<a href="#">
-						<div class="panel-footer">
-							<span class="pull-left">View Details</span>
-							<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-							<div class="clearfix"></div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="panel panel-yellow">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-3">
-								<i class="fa fa-bed fa-5x"></i>
-							</div>
-							<div class="col-xs-9 text-right">
-								<div class="huge">34</div>
-								<div>New Bookings (This Month)</div>
-							</div>
-						</div>
-					</div>
-					<a href="#">
-						<div class="panel-footer">
-							<span class="pull-left">View Details</span>
-							<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-							<div class="clearfix"></div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="panel panel-red">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-xs-3">
-								<i class="fa fa-building fa-5x"></i>
-							</div>
-							<div class="col-xs-9 text-right">
-								<div class="huge">18</div>
-								<div>Rooms Unoccupied</div>
-							</div>
-						</div>
-					</div>
-					<a href="#">
-						<div class="panel-footer">
-							<span class="pull-left">View Details</span>
-							<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-							<div class="clearfix"></div>
-						</div>
-					</a>
-				</div>
+				</a>
 			</div>
 		</div>
-		<!-- /.row -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<i class="fa fa-bar-chart-o fa-fw"></i>
-						Chart
+		<div class="col-lg-3 col-md-6">
+			<div class="panel panel-green">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-3">
+							<i class="fa fa-check fa-5x"></i>
+						</div>
+						<div class="col-xs-9 text-right">
+							<div class="huge">18</div>
+							<div>Upcoming Reservations</div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="panel panel-yellow">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-3">
+							<i class="fa fa-bed fa-5x"></i>
+						</div>
+						<div class="col-xs-9 text-right">
+							<div class="huge">34</div>
+							<div>New Bookings (This Month)</div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="panel panel-red">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-3">
+							<i class="fa fa-building fa-5x"></i>
+						</div>
+						<div class="col-xs-9 text-right">
+							<div class="huge">18</div>
+							<div>Rooms Unoccupied</div>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="panel-footer">
+						<span class="pull-left">View Details</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<i class="fa fa-bar-chart-o fa-fw"></i>
+					Chart
                             <div class="pull-right">
 								<div class="btn-group">
 									<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -130,13 +129,12 @@
 									</ul>
 								</div>
 							</div>
-					</div>
-					<div class="panel-body">
-						<div id="chart1"></div>
-					</div>
 				</div>
-				<!-- /.panel -->
+				<div class="panel-body">
+					<div id="chart1"></div>
+				</div>
 			</div>
+			<!-- /.panel -->
 		</div>
 	</div>
 </asp:Content>
@@ -144,7 +142,7 @@
 	<script type="text/javascript" charset="utf-8" src="Assets/Scripts/highcharts.js"></script>
 	<script type="text/javascript" charset="utf-8" src="Assets/Scripts/highcharts-no-data.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function () {
+		$(document).on('ready', function () {
 			$('#chart1').highcharts({
 				title: {
 					text: 'Room Bookings Rate',
