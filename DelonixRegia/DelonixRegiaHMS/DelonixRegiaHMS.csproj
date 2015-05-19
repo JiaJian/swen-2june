@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -57,10 +60,47 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Scripts\bootstrap.js" />
+    <Content Include="Assets\Scripts\bootstrap.min.js" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="Assets\Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Assets\Scripts\dashboard.js" />
+    <Content Include="Assets\Scripts\highcharts.js" />
+    <Content Include="Assets\Scripts\highcharts-no-data.js" />
+    <Content Include="Assets\Scripts\jquery-1.9.1.js" />
+    <Content Include="Assets\Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Assets\Scripts\metisMenu.min.js" />
+    <Content Include="Assets\Styles\dashboard.css" />
+    <Content Include="Assets\Styles\metisMenu.min.css" />
+    <Content Include="Assets\Scripts\npm.js" />
+    <Content Include="Assets\Scripts\particleground.min.js" />
+    <Content Include="Assets\Styles\bootstrap-theme.css" />
+    <Content Include="Assets\Styles\bootstrap-theme.min.css" />
+    <Content Include="Assets\Styles\bootstrap.css" />
+    <Content Include="Assets\Styles\bootstrap.min.css" />
+    <Content Include="Assets\Styles\login.css" />
+    <Content Include="Assets\Styles\font-awesome.css" />
+    <Content Include="Assets\Styles\font-awesome.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="Icon.png" />
+    <Content Include="Manage\Room_Booking_Add.aspx" />
+    <Content Include="Manage\Room_Booking_Manage.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\Styles\bootstrap-theme.css.map" />
+    <Content Include="Assets\Styles\bootstrap.css.map" />
+    <Content Include="Assets\Scripts\jquery-1.9.1.min.map" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\Route_Config.cs" />
     <Compile Include="Dashboard.Master.cs">
       <DependentUpon>Dashboard.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -75,16 +115,49 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Room_Booking_Add.aspx.cs">
+      <DependentUpon>Room_Booking_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Booking_Add.aspx.designer.cs">
+      <DependentUpon>Room_Booking_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Room_Booking_Manage.aspx.cs">
+      <DependentUpon>Room_Booking_Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Booking_Manage.aspx.designer.cs">
+      <DependentUpon>Room_Booking_Manage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dashboard.Master" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\delonixregia__internal.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Images\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

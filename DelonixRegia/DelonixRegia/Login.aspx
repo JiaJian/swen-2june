@@ -34,7 +34,6 @@
 								<span class="input-group-addon"><i class="fa fa-lock"></i></span>
 								<input type="password" name="password" id="tbxPassword" class="form-control input-lg" placeholder="Password" runat="server" tabindex="2">
 							</div>
-							<!-- Don't do it this way pls. #a94442 is has-error in twbs -->
 
 						</div>
 					</div>

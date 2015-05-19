@@ -73,6 +73,7 @@
     <Content Include="Assets\Scripts\bootstrap.js" />
     <Content Include="Assets\Scripts\bootstrap.min.js" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
     <None Include="Assets\Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Assets\Scripts\jquery-1.9.1.js" />
     <Content Include="Assets\Scripts\jquery-1.9.1.min.js" />
@@ -92,7 +93,10 @@
     <Content Include="Assets\Styles\home.css" />
     <Content Include="Assets\Styles\bootstrap.css" />
     <Content Include="Book.aspx" />
+    <Content Include="Assets\Styles\font-awesome.css" />
+    <Content Include="Assets\Styles\font-awesome.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Icon.png" />
     <Content Include="Login.aspx" />
@@ -240,6 +244,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.Master" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\delonixregia__dev.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

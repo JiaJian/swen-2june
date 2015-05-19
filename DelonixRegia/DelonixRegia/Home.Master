@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="" />
 	<meta name="author" content="">
-	<link rel="shortcut icon" href="Assets/Styles/favicon.ico" />
+	<link rel="shortcut icon" href="Assets/Images/favicon.ico" />
 
 	<title>
 		<asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
@@ -19,7 +19,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="Assets/Styles/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" />
+	<link rel="stylesheet" href="Assets/Styles/font-awesome.min.css" />
 
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="Assets/Styles/home.css" />
