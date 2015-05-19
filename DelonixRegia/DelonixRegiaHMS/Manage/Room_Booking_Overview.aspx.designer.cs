@@ -10,6 +10,6 @@
 namespace DelonixRegiaHMS.Manage {
 
 
-	public partial class Room_Booking_Manage {
+	public partial class Room_Booking_Overview {
 	}
 }

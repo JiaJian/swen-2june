@@ -22,6 +22,8 @@
 	<link rel="stylesheet" href="/Assets/Styles/dashboard.css" />
 	<link rel="stylesheet" href="/Assets/Styles/metisMenu.min.css" />
 
+	<link rel="stylesheet" href="Assets/Styles/DataTables/css/dataTables.bootstrap.css" />
+
 	<asp:ContentPlaceHolder ID="Styles" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
@@ -205,6 +207,15 @@
 		<script type="text/javascript" charset="utf-8" src="/Assets/Scripts/dashboard.js"></script>
 		<!-- <script type="text/javascript" charset="utf-8" src="Assets/Scripts/moment.min.js"></script> -->
 		<script type="text/javascript" charset="utf-8" src="/Assets/Scripts/metisMenu.min.js"></script>
+
+		<script src="/Assets/Scripts/DataTables/jquery.dataTables.min.js"></script>
+		<script src="/Assets/Scripts/DataTables/dataTables.bootstrap.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#dtbl').dataTable();
+			});
+		</script>
 
 		<asp:ContentPlaceHolder ID="Scripts" runat="server"></asp:ContentPlaceHolder>
 	</form>

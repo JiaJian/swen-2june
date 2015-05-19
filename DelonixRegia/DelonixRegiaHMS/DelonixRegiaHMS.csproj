@@ -88,7 +88,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Icon.png" />
     <Content Include="Manage\Room_Booking_Add.aspx" />
-    <Content Include="Manage\Room_Booking_Manage.aspx" />
+    <Content Include="Manage\Room_Booking_Overview.aspx" />
     <Content Include="packages.config" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
@@ -132,12 +132,12 @@
     <Compile Include="Manage\Room_Booking_Add.aspx.designer.cs">
       <DependentUpon>Room_Booking_Add.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Manage\Room_Booking_Manage.aspx.cs">
-      <DependentUpon>Room_Booking_Manage.aspx</DependentUpon>
+    <Compile Include="Manage\Room_Booking_Overview.aspx.cs">
+      <DependentUpon>Room_Booking_Overview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Manage\Room_Booking_Manage.aspx.designer.cs">
-      <DependentUpon>Room_Booking_Manage.aspx</DependentUpon>
+    <Compile Include="Manage\Room_Booking_Overview.aspx.designer.cs">
+      <DependentUpon>Room_Booking_Overview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

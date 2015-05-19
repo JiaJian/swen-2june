@@ -26,7 +26,7 @@ namespace DelonixRegiaHMS {
 			routes.MapPageRoute(
 				"rb2",
 				"manage/roombooking",
-				"~/Manage/Room_Booking_Manage.aspx"
+				"~/Manage/Room_Booking_Overview.aspx"
 			);
 		}
 	}
