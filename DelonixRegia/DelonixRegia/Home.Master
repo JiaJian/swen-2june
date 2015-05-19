@@ -21,14 +21,10 @@
 	<link rel="stylesheet" href="/Content/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" />
 
-
-	<!-- Additional stuff -->
-
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="/Content/home.css" />
 
-	<!-- Placeholder for additional css stuff if need be -->
-	<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+	<asp:ContentPlaceHolder ID="Styles" runat="server"></asp:ContentPlaceHolder>
 </head>
 
 <body>
@@ -141,7 +137,7 @@
             -->
 		
 
-		<asp:ContentPlaceHolder ID="scripts" runat="server"></asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="Scripts" runat="server"></asp:ContentPlaceHolder>
 
 		<script type="text/javascript">
 			/* JS to add 'active' class in navbar */

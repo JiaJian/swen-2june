@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
 	Home
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="Styles" runat="server">
 	<link href="Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="scripts" runat="server">
+<asp:Content ID="Content4" ContentPlaceHolderID="Scripts" runat="server">
 	<script src="Scripts/bootstrap-datetimepicker.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {

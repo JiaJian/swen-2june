@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
 	Login
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="Styles" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 	<div class="container">
@@ -50,5 +50,5 @@
 		</div>
 	</div>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="scripts" runat="server">
+<asp:Content ID="Content4" ContentPlaceHolderID="Scripts" runat="server">
 </asp:Content>
