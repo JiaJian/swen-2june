@@ -142,8 +142,16 @@
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Icon.png" />
+    <Content Include="Manage\Duty_Assign.aspx" />
+    <Content Include="Manage\Duty_Type_Add.aspx" />
+    <Content Include="Manage\Duty_Type_Overview.aspx" />
+    <Content Include="Manage\Room_Add.aspx" />
     <Content Include="Manage\Room_Booking_Add.aspx" />
     <Content Include="Manage\Room_Booking_Overview.aspx" />
+    <Content Include="Manage\Room_Overview.aspx" />
+    <Content Include="Manage\Room_Type_Add.aspx" />
+    <Content Include="Manage\Room_Type_Overview.aspx" />
+    <Content Include="Manage\Staff_Record_Manage.aspx" />
     <Content Include="packages.config" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
@@ -175,6 +183,11 @@
     <Content Include="Assets\Scripts\DataTables\dataTables.tableTools.min.js" />
     <Content Include="Assets\Scripts\DataTables\jquery.dataTables.js" />
     <Content Include="Assets\Scripts\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Reports\Guest_Details_All.aspx" />
+    <Content Include="Reports\Guest_Details_Room.aspx" />
+    <Content Include="Reports\Housekeeping.aspx" />
+    <Content Include="Reports\Room_Occupancy.aspx" />
+    <Content Include="Reports\Room_Status.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +216,34 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Manage\Duty_Assign.aspx.cs">
+      <DependentUpon>Duty_Assign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Duty_Assign.aspx.designer.cs">
+      <DependentUpon>Duty_Assign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Duty_Type_Add.aspx.cs">
+      <DependentUpon>Duty_Type_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Duty_Type_Add.aspx.designer.cs">
+      <DependentUpon>Duty_Type_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Duty_Type_Overview.aspx.cs">
+      <DependentUpon>Duty_Type_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Duty_Type_Overview.aspx.designer.cs">
+      <DependentUpon>Duty_Type_Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Room_Add.aspx.cs">
+      <DependentUpon>Room_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Add.aspx.designer.cs">
+      <DependentUpon>Room_Add.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Manage\Room_Booking_Add.aspx.cs">
       <DependentUpon>Room_Booking_Add.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -217,7 +258,70 @@
     <Compile Include="Manage\Room_Booking_Overview.aspx.designer.cs">
       <DependentUpon>Room_Booking_Overview.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Manage\Room_Overview.aspx.cs">
+      <DependentUpon>Room_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Overview.aspx.designer.cs">
+      <DependentUpon>Room_Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Room_Type_Add.aspx.cs">
+      <DependentUpon>Room_Type_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Type_Add.aspx.designer.cs">
+      <DependentUpon>Room_Type_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Room_Type_Overview.aspx.cs">
+      <DependentUpon>Room_Type_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Room_Type_Overview.aspx.designer.cs">
+      <DependentUpon>Room_Type_Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Staff_Record_Manage.aspx.cs">
+      <DependentUpon>Staff_Record_Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Staff_Record_Manage.aspx.designer.cs">
+      <DependentUpon>Staff_Record_Manage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\Guest_Details_All.aspx.cs">
+      <DependentUpon>Guest_Details_All.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Guest_Details_All.aspx.designer.cs">
+      <DependentUpon>Guest_Details_All.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Guest_Details_Room.aspx.cs">
+      <DependentUpon>Guest_Details_Room.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Guest_Details_Room.aspx.designer.cs">
+      <DependentUpon>Guest_Details_Room.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Housekeeping.aspx.cs">
+      <DependentUpon>Housekeeping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Housekeeping.aspx.designer.cs">
+      <DependentUpon>Housekeeping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Room_Occupancy.aspx.cs">
+      <DependentUpon>Room_Occupancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Room_Occupancy.aspx.designer.cs">
+      <DependentUpon>Room_Occupancy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Room_Status.aspx.cs">
+      <DependentUpon>Room_Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Room_Status.aspx.designer.cs">
+      <DependentUpon>Room_Status.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dashboard.Master" />
