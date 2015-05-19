@@ -10,69 +10,87 @@
 namespace DelonixRegia {
     
     
-    public partial class Signup {
+    public partial class Book {
         
         /// <summary>
-        /// alertError control.
+        /// ctr1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl alertError;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ctr1;
         
         /// <summary>
-        /// lblMessage control.
+        /// ctr2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblMessage;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ctr2;
         
         /// <summary>
-        /// tbxFirstName control.
+        /// ctr_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxFirstName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ctr_email;
         
         /// <summary>
-        /// tbxLastName control.
+        /// ctr3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxLastName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ctr3;
         
         /// <summary>
-        /// tbxEmail control.
+        /// ctr4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl tbxEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect ctr4;
         
         /// <summary>
-        /// tbxPassword control.
+        /// ctr5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword tbxPassword;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ctr5;
         
         /// <summary>
-        /// btnSignup control.
+        /// Text4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputSubmit btnSignup;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Text4;
+        
+        /// <summary>
+        /// Select1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect Select1;
+        
+        /// <summary>
+        /// Text5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Text5;
     }
 }

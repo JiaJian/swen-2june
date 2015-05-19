@@ -28,10 +28,17 @@ body {
 	margin-bottom: 0px !important;
 }
 
-.jumbotron-banner {
+.jumbotron-banner-home {
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-image: url(/Content/Images/jumbotron-header.jpg);
+	background-image: url(/Assets/Images/jumbotron-header.jpg);
+	min-height: 100%;
+}
+
+.jumbotron-banner-search {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(/Assets/Images/jumbotron-header-search.jpg);
 	min-height: 100%;
 }
 

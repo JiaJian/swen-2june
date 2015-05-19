@@ -34,22 +34,16 @@
 
 					<div class="form-group">
 						<div class="col-md-6">
-							<input type="text" name="first_name" id="tbxFirstName" class="form-control input-lg" placeholder="Full Name" runat="server" tabindex="1" autofocus>
+							<input type="text" name="first_name" id="tbxFirstName" class="form-control input-lg" placeholder="First Name" runat="server" tabindex="1" autofocus>
 						</div>
 						<div class="col-md-6">
-							<input type="text" name="last_name" id="tbxLastName" class="form-control input-lg" placeholder="Full Name" runat="server" tabindex="2" autofocus>
+							<input type="text" name="last_name" id="tbxLastName" class="form-control input-lg" placeholder="Last Name" runat="server" tabindex="2" autofocus>
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-md-12">
 							<input type="email" name="email" id="tbxEmail" class="form-control input-lg" placeholder="Email Address" runat="server" tabindex="3">
-						</div>
-					</div>
-
-					<div class="form-group">
-						<div class="col-md-12">
-							<input type="text" name="email" id="tbxUsername" class="form-control input-lg" placeholder="Username" runat="server" tabindex="4">
 						</div>
 					</div>
 

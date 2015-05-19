@@ -7,10 +7,11 @@
 	<link href="Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-	<div class="jumbotron masthead jumbotron-banner">
+	<div class="jumbotron masthead jumbotron-banner-home">
 		<div class="container">
 			<h1>Delonix Regia</h1>
 			<p>Luxurious hotel overlooking the Singapore River.</p>
+			<p>&nbsp;</p>
 		</div>
 	</div>
 	<div class="container-fluid container-booking">
@@ -36,7 +37,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-1">
+				<div class="col-md-2">
 					<div class="form-group">
 						<label class="control-label">Adults</label>
 						<div class="clearfix"></div>
@@ -44,11 +45,16 @@
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
 						</select>
 					</div>
 				</div>
 
-				<div class="col-md-1">
+				<div class="col-md-2">
 					<div class="form-group">
 						<label class="control-label">Children</label>
 						<div class="clearfix"></div>
@@ -56,21 +62,26 @@
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
 						</select>
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<div class="form-group">
 						<label class="control-label">&nbsp;</label>
 						<div class="clearfix"></div>
-						<a href="search" class="btn btn-success">Find Rooms</a>
+						<a href="search" class="btn btn-success pull-right">Search</a>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

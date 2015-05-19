@@ -23,15 +23,15 @@
 					<div class="col-md-12">
 						<div class="form-group">
 							<div class="input-group">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-								<input type="text" name="user_id" id="tbxUserId" class="form-control input-lg" placeholder="User ID" runat="server" tabindex="1" autofocus>
+								<span class="input-group-addon"><i class="fa fa-user"></i></span>
+								<input type="text" name="user_id" id="tbxUserId" class="form-control input-lg" placeholder="Email" runat="server" tabindex="1" autofocus>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="form-group">
 							<div class="input-group">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<span class="input-group-addon"><i class="fa fa-lock"></i></span>
 								<input type="password" name="password" id="tbxPassword" class="form-control input-lg" placeholder="Password" runat="server" tabindex="2">
 							</div>
 							<!-- Don't do it this way pls. #a94442 is has-error in twbs -->
