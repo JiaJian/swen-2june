@@ -107,24 +107,8 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="form-group">
-									<label class="control-label">Address</label>
-									<input type="text" class="form-control" id="Text4" runat="server" />
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="form-group">
-									<label class="control-label">Country</label>
-									<select class="form-control" id="Select1" runat="server">
-										<option value="Singapore">Singapore</option>
-									</select>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="form-group">
-									<label class="control-label">Postal Code</label>
-									<input type="text" class="form-control" id="Text5" runat="server" />
+									<label class="control-label">Special Requests</label>
+									<textarea class="form-control" id="ctr_b1" rows="5" runat="server" />
 								</div>
 							</div>
 						</div>
