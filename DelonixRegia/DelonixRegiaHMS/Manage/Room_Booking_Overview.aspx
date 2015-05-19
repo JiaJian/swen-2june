@@ -18,24 +18,53 @@
 			<table class="table table-striped" id="dtbl">
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Full Name</th>
-						<th>Username</th>
-						<th>Password</th>
-						<th>Email</th>
-						<th>Account Level</th>
-						<th>Internal Tools</th>
+						<th>Booking ID</th>
+						<th>Guest Email</th>
+						<th>Room Number</th>
+						<th>Check-in Date</th>
+						<th>Check-out Date</th>
+						<th>Booking Creation</th>
+						<th>Status</th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td><%# Eval("user_id") %></td>
-						<td><strong><%# Eval("full_name") %></strong></td>
-						<td><%# Eval("username") %></td>
-						<td>[hashedPassword]</td>
-						<td><a href="mailto:<%# Eval("email") %>"><%# Eval("email") %></a></td>
-						<td><%# Eval("role_id") %></td>
+						<td>1</td>
+						<td><a href="mailto:boywilfred@gmail.com">boywilfred@gmail.com</a></td>
+						<td>810</td>
+						<td>18 May 2015</td>
+						<td>21 May 2015</td>
+						<td>12 March 2015</td>
+						<td>Checked In</td>
 						<td>
+							<a href="/manage/user/view/<%# Eval("user_id") %>" class="btn btn-info">
+								<span class="fa fa-info"></span>
+								Details
+							</a>
+							<a href="/manage/user/edit/<%# Eval("user_id") %>" class="btn btn-warning">
+								<span class="glyphicon glyphicon-pencil"></span>
+								Edit
+							</a>
+							<button data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#" disabled>
+								<span class="glyphicon glyphicon-trash"></span>
+								Delete
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td><a href="mailto:boywilfred@gmail.com">its@jiajian.me</a></td>
+						<td>1018</td>
+						<td>28 May 2015</td>
+						<td>30 May 2015</td>
+						<td>17 March 2015</td>
+						<td>Confirmed</td>
+						<td>
+							<a href="/manage/user/view/<%# Eval("user_id") %>" class="btn btn-info">
+								<span class="fa fa-info"></span>
+								Details
+							</a>
 							<a href="/manage/user/edit/<%# Eval("user_id") %>" class="btn btn-warning">
 								<span class="glyphicon glyphicon-pencil"></span>
 								Edit

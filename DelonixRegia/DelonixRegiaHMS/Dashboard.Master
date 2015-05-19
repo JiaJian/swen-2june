@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="/Assets/Styles/dashboard.css" />
 	<link rel="stylesheet" href="/Assets/Styles/metisMenu.min.css" />
 
-	<link rel="stylesheet" href="Assets/Styles/DataTables/css/dataTables.bootstrap.css" />
+	<link rel="stylesheet" href="/Assets/Styles/DataTables/css/dataTables.bootstrap.css" />
 
 	<asp:ContentPlaceHolder ID="Styles" runat="server"></asp:ContentPlaceHolder>
 </head>
@@ -107,6 +107,12 @@
 									</li>
 									<li>
 										<a href="/manage/room-type">Manage Room Types</a>
+									</li>
+									<li>
+										<a href="/manage/room/add">Add Room</a>
+									</li>
+									<li>
+										<a href="/manage/room">Manage Rooms</a>
 									</li>
 								</ul>
 							</li>

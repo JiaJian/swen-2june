@@ -43,6 +43,28 @@
 				</div>
 
 				<div class="form-group">
+					<label for="tbxStartDate" class="col-sm-2 control-label">Check In Date</label>
+					<div class="col-sm-10">
+						<div class="input-group date" id="datetimepicker1" data-date-format="DD-MM-YYYY">
+							<input type="text" class="form-control" id="tbxStartDate" placeholder="When is the guest checking in?" runat="server">
+							<span class="input-group-addon"><span class="fa fa-calendar"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="tbxStartDate" class="col-sm-2 control-label">Check Out Date</label>
+					<div class="col-sm-10">
+						<div class="input-group date" id="datetimepicker2" data-date-format="DD-MM-YYYY">
+							<input type="text" class="form-control" id="Text1" placeholder="When is the guest checking out?" runat="server">
+							<span class="input-group-addon"><span class="fa fa-calendar"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
 					<label for="ddlUserLevel" class="col-sm-2 control-label">Number of Guests</label>
 					<div class="col-sm-10">
 						<select class="form-control" name="ddlUserLevel" id="Select1" runat="server">
