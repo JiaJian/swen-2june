@@ -10,6 +10,6 @@
 namespace DelonixRegiaHMS.Manage {
 
 
-	public partial class Staff_Record_Manage {
+	public partial class Guest_Account_Overview {
 	}
 }

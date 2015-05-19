@@ -145,13 +145,17 @@
     <Content Include="Manage\Duty_Assign.aspx" />
     <Content Include="Manage\Duty_Type_Add.aspx" />
     <Content Include="Manage\Duty_Type_Overview.aspx" />
+    <Content Include="Manage\Guest_Account_Add.aspx" />
+    <Content Include="Manage\Guest_Account_Overview.aspx" />
     <Content Include="Manage\Room_Add.aspx" />
     <Content Include="Manage\Room_Booking_Add.aspx" />
     <Content Include="Manage\Room_Booking_Overview.aspx" />
     <Content Include="Manage\Room_Overview.aspx" />
     <Content Include="Manage\Room_Type_Add.aspx" />
     <Content Include="Manage\Room_Type_Overview.aspx" />
-    <Content Include="Manage\Staff_Record_Manage.aspx" />
+    <Content Include="Manage\Staff_Account_Add.aspx" />
+    <Content Include="Manage\Staff_Account_Overview.aspx" />
+    <Content Include="Manage\Staff_Record_Overview.aspx" />
     <Content Include="packages.config" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
@@ -237,6 +241,20 @@
     <Compile Include="Manage\Duty_Type_Overview.aspx.designer.cs">
       <DependentUpon>Duty_Type_Overview.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Manage\Guest_Account_Add.aspx.cs">
+      <DependentUpon>Guest_Account_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Guest_Account_Add.aspx.designer.cs">
+      <DependentUpon>Guest_Account_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Guest_Account_Overview.aspx.cs">
+      <DependentUpon>Guest_Account_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Guest_Account_Overview.aspx.designer.cs">
+      <DependentUpon>Guest_Account_Overview.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Manage\Room_Add.aspx.cs">
       <DependentUpon>Room_Add.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -279,12 +297,26 @@
     <Compile Include="Manage\Room_Type_Overview.aspx.designer.cs">
       <DependentUpon>Room_Type_Overview.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Manage\Staff_Record_Manage.aspx.cs">
-      <DependentUpon>Staff_Record_Manage.aspx</DependentUpon>
+    <Compile Include="Manage\Staff_Account_Add.aspx.cs">
+      <DependentUpon>Staff_Account_Add.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Manage\Staff_Record_Manage.aspx.designer.cs">
-      <DependentUpon>Staff_Record_Manage.aspx</DependentUpon>
+    <Compile Include="Manage\Staff_Account_Add.aspx.designer.cs">
+      <DependentUpon>Staff_Account_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Staff_Account_Overview.aspx.cs">
+      <DependentUpon>Staff_Account_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Staff_Account_Overview.aspx.designer.cs">
+      <DependentUpon>Staff_Account_Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\Staff_Record_Overview.aspx.cs">
+      <DependentUpon>Staff_Record_Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\Staff_Record_Overview.aspx.designer.cs">
+      <DependentUpon>Staff_Record_Overview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reports\Guest_Details_All.aspx.cs">

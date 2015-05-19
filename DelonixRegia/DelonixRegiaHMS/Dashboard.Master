@@ -125,7 +125,7 @@
 								</a>
 								<ul class="nav nav-second-level">
 									<li>
-										<a href="/manage/records/add">Manage Staff Records</a>
+										<a href="/manage/staff-records">Manage Staff Records</a>
 									</li>
 								</ul>
 							</li>
@@ -138,7 +138,7 @@
 								</a>
 								<ul class="nav nav-second-level">
 									<li>
-										<a href="/manage/duty/add">Assign Duty</a>
+										<a href="/manage/duty/assign">Assign Duty</a>
 									</li>
 									<li>
 										<a href="/manage/duty">View Duty Roster</a>

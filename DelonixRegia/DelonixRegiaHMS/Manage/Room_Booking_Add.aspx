@@ -103,7 +103,7 @@
 					<div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" class="btn btn-success" id="btnSubmit" runat="server">
 							<span class="glyphicon glyphicon-plus"></span>
-							Save booking record
+							Create booking record
 						</button>
 					</div>
 				</div>
