@@ -83,6 +83,18 @@
 				</div>
 
 				<div class="form-group">
+					<label for="ddlUserLevel" class="col-sm-2 control-label">Account Role</label>
+					<div class="col-sm-10">
+						<select class="form-control" name="ddlUserLevel" id="Select1" runat="server">
+							<option>Maintenance Crew</option>
+							<option>Receptionist</option>
+							<option>Management</option>
+							<option>Administrator</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" class="btn btn-success" id="btnSubmit" runat="server">
 							<span class="glyphicon glyphicon-plus"></span>

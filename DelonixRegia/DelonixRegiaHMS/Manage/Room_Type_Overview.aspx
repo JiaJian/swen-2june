@@ -36,10 +36,10 @@
 								<span class="glyphicon glyphicon-pencil"></span>
 								Edit
 							</a>
-							<button data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#" disabled>
+							<a data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#">
 								<span class="glyphicon glyphicon-trash"></span>
 								Delete
-							</button>
+							</a>
 						</td>
 					</tr>
 					<tr>
@@ -55,10 +55,10 @@
 								<span class="glyphicon glyphicon-pencil"></span>
 								Edit
 							</a>
-							<button data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#" disabled>
+							<a data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#">
 								<span class="glyphicon glyphicon-trash"></span>
 								Delete
-							</button>
+							</a>
 						</td>
 					</tr>
 					<tr>
@@ -74,10 +74,10 @@
 								<span class="glyphicon glyphicon-pencil"></span>
 								Edit
 							</a>
-							<button data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#" disabled>
+							<a data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#">
 								<span class="glyphicon glyphicon-trash"></span>
 								Delete
-							</button>
+							</a>
 						</td>
 					</tr>
 					<tr>
@@ -93,10 +93,10 @@
 								<span class="glyphicon glyphicon-pencil"></span>
 								Edit
 							</a>
-							<button data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#" disabled>
+							<a data-href="/manage/user/delete/<%# Eval("user_id") %>" class="btn btn-danger" data-toggle="modal" data-target="#confirm-delete" href="#">
 								<span class="glyphicon glyphicon-trash"></span>
 								Delete
-							</button>
+							</a>
 						</td>
 					</tr>
 				</tbody>

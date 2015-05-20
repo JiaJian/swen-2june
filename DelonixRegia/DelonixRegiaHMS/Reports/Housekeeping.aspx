@@ -17,6 +17,39 @@
 	</div>
 
 	<div class="row">
+		<div class="col-lg-12">
+			<div class="ui">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label class="control-label">Frequency</label>
+							<select class="form-control" name="ddlPLZchangethis" id="Select2" runat="server">
+								<option>Daily</option>
+								<option selected>Weekly</option>
+								<option>Monthly</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+						<div class="form-group">
+							<label class="control-label">&nbsp;</label>
+							<div class="clearfix"></div>
+							<a href="search" class="btn btn-success">Generate</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="page-header">Weekly housekeeping report <small>(for period starting Monday, 18 May 2015)</small></h2>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="col-md-12">
 			<table class="table table-striped" id="dtbl">
 				<thead>
